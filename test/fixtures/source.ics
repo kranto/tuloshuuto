@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+PRODID:-//Torneopal//Calendar//FI
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+NAME:Soho Seniors
+X-WR-CALNAME:Soho Seniors
+X-WR-TIMEZONE:Europe/Helsinki
+BEGIN:VEVENT
+DTSTAMP:20261205T162000Z
+UID:4402981@spl.torneopal.fi
+CATEGORIES:Miehet 50 Futsal-Ykkönen
+SUMMARY:KaVo – Soho Seniors\, Miehet 50 Futsal-Ykkönen
+URL:https://tulospalvelu.palloliitto.fi/match/4402981
+STATUS:CONFIRMED
+LOCATION:Harjuniitty\, Lautamiehenkatu 1\, Nokia
+DESCRIPTION:https://tulospalvelu.palloliitto.fi/match/4402981
+DTSTART:20261205T162000Z
+DTEND:20261205T171000Z
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

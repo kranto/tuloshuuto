@@ -1,0 +1,119 @@
+name: Generate calendars
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: tuloshuuto-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      any_success: ${{ steps.report.outputs.any_success }}
+      generation: ${{ steps.generate.outcome }}
+      commit: ${{ steps.commit.outcome }}
+      report: ${{ steps.report.outcome }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Require main dispatch
+        run: test "$GITHUB_REF" = refs/heads/main
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm test
+      - name: Generate calendars
+        id: generate
+        continue-on-error: true
+        run: |
+          rm -f .reports/generation.json
+          pnpm generate --report .reports/generation.json
+      - name: Validate fresh generation report
+        id: report
+        if: ${{ !cancelled() && steps.generate.outcome != 'skipped' }}
+        env:
+          GENERATION_OUTCOME: ${{ steps.generate.outcome }}
+        run: node src/workflow.ts prepare
+      - name: Commit successful updates
+        id: commit
+        if: ${{ !cancelled() && steps.report.outcome == 'success' && steps.report.outputs.any_success == 'true' }}
+        run: node src/workflow.ts commit
+      - name: Upload Pages artifact
+        if: ${{ !cancelled() && steps.commit.outcome == 'success' && steps.report.outputs.any_success == 'true' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Preserve generation report for final summary
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: generation-report
+          path: .reports/generation.json
+          include-hidden-files: true
+          if-no-files-found: ignore
+
+  deploy:
+    needs: generate
+    if: ${{ !cancelled() && needs.generate.result == 'success' && needs.generate.outputs.any_success == 'true' && needs.generate.outputs.commit == 'success' }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy calendars
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  summary:
+    needs: [generate, deploy]
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - name: Download generation report if available
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: generation-report
+          path: .reports
+      - name: Write Job Summary
+        if: ${{ always() }}
+        env:
+          GENERATION_OUTCOME: ${{ needs.generate.outputs.generation || 'not run' }}
+          COMMIT_OUTCOME: ${{ needs.generate.outputs.commit || 'not run' }}
+          DEPLOYMENT_OUTCOME: ${{ needs.deploy.result }}
+        run: node src/workflow.ts summary
+      - name: Set final workflow status
+        if: ${{ always() }}
+        env:
+          BUILD_RESULT: ${{ needs.generate.result }}
+          GENERATION_OUTCOME: ${{ needs.generate.outputs.generation }}
+          REPORT_OUTCOME: ${{ needs.generate.outputs.report }}
+          COMMIT_OUTCOME: ${{ needs.generate.outputs.commit }}
+          DEPLOYMENT_RESULT: ${{ needs.deploy.result }}
+        run: |
+          test "$BUILD_RESULT" = success &&
+          test "$GENERATION_OUTCOME" = success &&
+          test "$REPORT_OUTCOME" = success &&
+          test "$COMMIT_OUTCOME" = success &&
+          test "$DEPLOYMENT_RESULT" = success

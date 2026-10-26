@@ -1,0 +1,177 @@
+BEGIN:VCALENDAR
+PRODID:TASO
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+NAME:Soho Seniors – Miehet 50 Futsal-Ykkönen
+X-WR-CALNAME:Soho Seniors – Miehet 50 Futsal-Ykkönen
+X-WR-TIMEZONE:Europe/Helsinki
+BEGIN:VEVENT
+DTSTAMP:20261205T162000Z
+UID:4402981@spl.torneopal.fi
+CATEGORIES:Miehet 50 Futsal-Ykkönen
+SUMMARY:M50: KaVo – Soho Seniors
+URL:https://tulospalvelu.palloliitto.fi/match/4402981
+STATUS:CONFIRMED
+LOCATION:Harjuniitty\, Lautamiehenkatu 1\, Nokia
+DESCRIPTION:Harjuniitty\, Lautamiehenkatu 1\, Nokia\nhttps://tulospalvelu.p
+ alloliitto.fi/match/4402981
+DTSTART:20261205T162000Z
+DTEND:20261205T171000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261205T180000Z
+UID:4402983@spl.torneopal.fi
+CATEGORIES:Miehet 50 Futsal-Ykkönen
+SUMMARY:M50: Soho Seniors – HFN-50
+URL:https://tulospalvelu.palloliitto.fi/match/4402983
+STATUS:CONFIRMED
+LOCATION:Harjuniitty\, Lautamiehenkatu 1\, Nokia
+DESCRIPTION:Harjuniitty\, Lautamiehenkatu 1\, Nokia\nhttps://tulospalvelu.p
+ alloliitto.fi/match/4402983
+DTSTART:20261205T180000Z
+DTEND:20261205T185000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261219T100000Z
+UID:4402984@spl.torneopal.fi
+CATEGORIES:Miehet 50 Futsal-Ykkönen
+SUMMARY:M50: KaVo – Soho Seniors
+URL:https://tulospalvelu.palloliitto.fi/match/4402984
+STATUS:CONFIRMED
+LOCATION:Pitkäjärven koulu\, Vatialantie 1\, Kangasala
+DESCRIPTION:Pitkäjärven koulu\, Vatialantie 1\, Kangasala\nhttps://tulosp
+ alvelu.palloliitto.fi/match/4402984
+DTSTART:20261219T100000Z
+DTEND:20261219T105000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261219T114000Z
+UID:4402986@spl.torneopal.fi
+CATEGORIES:Miehet 50 Futsal-Ykkönen
+SUMMARY:M50: Soho Seniors – TP-49
+URL:https://tulospalvelu.palloliitto.fi/match/4402986
+STATUS:CONFIRMED
+LOCATION:Pitkäjärven koulu\, Vatialantie 1\, Kangasala
+DESCRIPTION:Pitkäjärven koulu\, Vatialantie 1\, Kangasala\nhttps://tulosp
+ alvelu.palloliitto.fi/match/4402986
+DTSTART:20261219T114000Z
+DTEND:20261219T123000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270117T080000Z
+UID:4402988@spl.torneopal.fi
+CATEGORIES:Miehet 50 Futsal-Ykkönen
+SUMMARY:M50: TP-49 – Soho Seniors
+URL:https://tulospalvelu.palloliitto.fi/match/4402988
+STATUS:CONFIRMED
+LOCATION:Akaa Areena\, Turuntie 1 B\, Akaa
+DESCRIPTION:Akaa Areena\, Turuntie 1 B\, Akaa\nhttps://tulospalvelu.palloli
+ itto.fi/match/4402988
+DTSTART:20270117T080000Z
+DTEND:20270117T085000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270117T100000Z
+UID:4402990@spl.torneopal.fi
+CATEGORIES:Miehet 50 Futsal-Ykkönen
+SUMMARY:M50: Soho Seniors – PJK
+URL:https://tulospalvelu.palloliitto.fi/match/4402990
+STATUS:CONFIRMED
+LOCATION:Akaa Areena\, Turuntie 1 B\, Akaa
+DESCRIPTION:Akaa Areena\, Turuntie 1 B\, Akaa\nhttps://tulospalvelu.palloli
+ itto.fi/match/4402990
+DTSTART:20270117T100000Z
+DTEND:20270117T105000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270130T090000Z
+UID:4402992@spl.torneopal.fi
+CATEGORIES:Miehet 50 Futsal-Ykkönen
+SUMMARY:M50: Soho Seniors – PJK
+URL:https://tulospalvelu.palloliitto.fi/match/4402992
+STATUS:CONFIRMED
+LOCATION:Pirkkahalli Futsal D3\, Ilmailunkatu 20\, Tampere
+DESCRIPTION:Pirkkahalli Futsal D3\, Ilmailunkatu 20\, Tampere\nhttps://tulo
+ spalvelu.palloliitto.fi/match/4402992
+DTSTART:20270130T090000Z
+DTEND:20270130T095000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270130T113000Z
+UID:4402995@spl.torneopal.fi
+CATEGORIES:Miehet 50 Futsal-Ykkönen
+SUMMARY:M50: HFN-50 – Soho Seniors
+URL:https://tulospalvelu.palloliitto.fi/match/4402995
+STATUS:CONFIRMED
+LOCATION:Pirkkahalli Futsal D3\, Ilmailunkatu 20\, Tampere
+DESCRIPTION:Pirkkahalli Futsal D3\, Ilmailunkatu 20\, Tampere\nhttps://tulo
+ spalvelu.palloliitto.fi/match/4402995
+DTSTART:20270130T113000Z
+DTEND:20270130T122000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270213T112000Z
+UID:4402997@spl.torneopal.fi
+CATEGORIES:Miehet 50 Futsal-Ykkönen
+SUMMARY:M50: HFN-50 – Soho Seniors
+URL:https://tulospalvelu.palloliitto.fi/match/4402997
+STATUS:CONFIRMED
+LOCATION:Vapaa-aikakeskus\, Koulutie 9\, Pirkkala
+DESCRIPTION:Vapaa-aikakeskus\, Koulutie 9\, Pirkkala\nhttps://tulospalvelu.
+ palloliitto.fi/match/4402997
+DTSTART:20270213T112000Z
+DTEND:20270213T121000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270213T130000Z
+UID:4402999@spl.torneopal.fi
+CATEGORIES:Miehet 50 Futsal-Ykkönen
+SUMMARY:M50: Soho Seniors – PJK
+URL:https://tulospalvelu.palloliitto.fi/match/4402999
+STATUS:CONFIRMED
+LOCATION:Vapaa-aikakeskus\, Koulutie 9\, Pirkkala
+DESCRIPTION:Vapaa-aikakeskus\, Koulutie 9\, Pirkkala\nhttps://tulospalvelu.
+ palloliitto.fi/match/4402999
+DTSTART:20270213T130000Z
+DTEND:20270213T135000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270314T125000Z
+UID:4403004@spl.torneopal.fi
+CATEGORIES:Miehet 50 Futsal-Ykkönen
+SUMMARY:M50: TP-49 – Soho Seniors
+URL:https://tulospalvelu.palloliitto.fi/match/4403004
+STATUS:CONFIRMED
+LOCATION:Pitkäjärven koulu\, Vatialantie 1\, Kangasala
+DESCRIPTION:Pitkäjärven koulu\, Vatialantie 1\, Kangasala\nhttps://tulosp
+ alvelu.palloliitto.fi/match/4403004
+DTSTART:20270314T125000Z
+DTEND:20270314T134000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270314T134000Z
+UID:4403005@spl.torneopal.fi
+CATEGORIES:Miehet 50 Futsal-Ykkönen
+SUMMARY:M50: Soho Seniors – KaVo
+URL:https://tulospalvelu.palloliitto.fi/match/4403005
+STATUS:CONFIRMED
+LOCATION:Pitkäjärven koulu\, Vatialantie 1\, Kangasala
+DESCRIPTION:Pitkäjärven koulu\, Vatialantie 1\, Kangasala\nhttps://tulosp
+ alvelu.palloliitto.fi/match/4403005
+DTSTART:20270314T134000Z
+DTEND:20270314T143000Z
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
