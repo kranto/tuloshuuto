@@ -1,0 +1,149 @@
+BEGIN:VCALENDAR
+PRODID:TASO
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+NAME:SOHO Seniors – Miehet 45 Futsal-Ykkönen
+X-WR-CALNAME:SOHO Seniors – Miehet 45 Futsal-Ykkönen
+X-WR-TIMEZONE:Europe/Helsinki
+BEGIN:VEVENT
+DTSTAMP:20261114T165000Z
+UID:4402947@spl.torneopal.fi
+CATEGORIES:Miehet 45 Futsal-Ykkönen
+SUMMARY:M45: SOHO Seniors – Gotham City FC
+URL:https://tulospalvelu.palloliitto.fi/match/4402947
+STATUS:CONFIRMED
+LOCATION:Harjuniitty\, Lautamiehenkatu 1\, Nokia
+DESCRIPTION:Harjuniitty\, Lautamiehenkatu 1\, Nokia\nhttps://tulospalvelu.p
+ alloliitto.fi/match/4402947
+DTSTART:20261114T165000Z
+DTEND:20261114T174000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261114T174000Z
+UID:4402948@spl.torneopal.fi
+CATEGORIES:Miehet 45 Futsal-Ykkönen
+SUMMARY:M45: FC SORPA – SOHO Seniors
+URL:https://tulospalvelu.palloliitto.fi/match/4402948
+STATUS:CONFIRMED
+LOCATION:Harjuniitty\, Lautamiehenkatu 1\, Nokia
+DESCRIPTION:Harjuniitty\, Lautamiehenkatu 1\, Nokia\nhttps://tulospalvelu.p
+ alloliitto.fi/match/4402948
+DTSTART:20261114T174000Z
+DTEND:20261114T183000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261212T142000Z
+UID:4402954@spl.torneopal.fi
+CATEGORIES:Miehet 45 Futsal-Ykkönen
+SUMMARY:M45: PJK – SOHO Seniors
+URL:https://tulospalvelu.palloliitto.fi/match/4402954
+STATUS:CONFIRMED
+LOCATION:Vapaa-aikakeskus\, Koulutie 9\, Pirkkala
+DESCRIPTION:Vapaa-aikakeskus\, Koulutie 9\, Pirkkala\nhttps://tulospalvelu.
+ palloliitto.fi/match/4402954
+DTSTART:20261212T142000Z
+DTEND:20261212T151000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261212T160000Z
+UID:4402956@spl.torneopal.fi
+CATEGORIES:Miehet 45 Futsal-Ykkönen
+SUMMARY:M45: SOHO Seniors – TaPS/M45
+URL:https://tulospalvelu.palloliitto.fi/match/4402956
+STATUS:CONFIRMED
+LOCATION:Vapaa-aikakeskus\, Koulutie 9\, Pirkkala
+DESCRIPTION:Vapaa-aikakeskus\, Koulutie 9\, Pirkkala\nhttps://tulospalvelu.
+ palloliitto.fi/match/4402956
+DTSTART:20261212T160000Z
+DTEND:20261212T165000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270117T103000Z
+UID:4402958@spl.torneopal.fi
+CATEGORIES:Miehet 45 Futsal-Ykkönen
+SUMMARY:M45: SOHO Seniors – PJK
+URL:https://tulospalvelu.palloliitto.fi/match/4402958
+STATUS:CONFIRMED
+LOCATION:Pirkkahalli Futsal D2\, Ilmailunkatu 20\, Tampere
+DESCRIPTION:Pirkkahalli Futsal D2\, Ilmailunkatu 20\, Tampere\nhttps://tulo
+ spalvelu.palloliitto.fi/match/4402958
+DTSTART:20270117T103000Z
+DTEND:20270117T112000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270117T130000Z
+UID:4402961@spl.torneopal.fi
+CATEGORIES:Miehet 45 Futsal-Ykkönen
+SUMMARY:M45: Gotham City FC – SOHO Seniors
+URL:https://tulospalvelu.palloliitto.fi/match/4402961
+STATUS:CONFIRMED
+LOCATION:Pirkkahalli Futsal D2\, Ilmailunkatu 20\, Tampere
+DESCRIPTION:Pirkkahalli Futsal D2\, Ilmailunkatu 20\, Tampere\nhttps://tulo
+ spalvelu.palloliitto.fi/match/4402961
+DTSTART:20270117T130000Z
+DTEND:20270117T135000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270213T153000Z
+UID:4402966@spl.torneopal.fi
+CATEGORIES:Miehet 45 Futsal-Ykkönen
+SUMMARY:M45: HFN-45 – SOHO Seniors
+URL:https://tulospalvelu.palloliitto.fi/match/4402966
+STATUS:CONFIRMED
+LOCATION:Harjuniitty\, Lautamiehenkatu 1\, Nokia
+DESCRIPTION:Harjuniitty\, Lautamiehenkatu 1\, Nokia\nhttps://tulospalvelu.p
+ alloliitto.fi/match/4402966
+DTSTART:20270213T153000Z
+DTEND:20270213T162000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270213T171000Z
+UID:4402968@spl.torneopal.fi
+CATEGORIES:Miehet 45 Futsal-Ykkönen
+SUMMARY:M45: SOHO Seniors – FC SORPA
+URL:https://tulospalvelu.palloliitto.fi/match/4402968
+STATUS:CONFIRMED
+LOCATION:Harjuniitty\, Lautamiehenkatu 1\, Nokia
+DESCRIPTION:Harjuniitty\, Lautamiehenkatu 1\, Nokia\nhttps://tulospalvelu.p
+ alloliitto.fi/match/4402968
+DTSTART:20270213T171000Z
+DTEND:20270213T180000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270313T142000Z
+UID:4402971@spl.torneopal.fi
+CATEGORIES:Miehet 45 Futsal-Ykkönen
+SUMMARY:M45: HFN-45 – SOHO Seniors
+URL:https://tulospalvelu.palloliitto.fi/match/4402971
+STATUS:CONFIRMED
+LOCATION:Pirkkahalli Futsal D3\, Ilmailunkatu 20\, Tampere
+DESCRIPTION:Pirkkahalli Futsal D3\, Ilmailunkatu 20\, Tampere\nhttps://tulo
+ spalvelu.palloliitto.fi/match/4402971
+DTSTART:20270313T142000Z
+DTEND:20270313T151000Z
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20270313T151000Z
+UID:4402972@spl.torneopal.fi
+CATEGORIES:Miehet 45 Futsal-Ykkönen
+SUMMARY:M45: SOHO Seniors – TaPS/M45
+URL:https://tulospalvelu.palloliitto.fi/match/4402972
+STATUS:CONFIRMED
+LOCATION:Pirkkahalli Futsal D3\, Ilmailunkatu 20\, Tampere
+DESCRIPTION:Pirkkahalli Futsal D3\, Ilmailunkatu 20\, Tampere\nhttps://tulo
+ spalvelu.palloliitto.fi/match/4402972
+DTSTART:20270313T151000Z
+DTEND:20270313T160000Z
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
