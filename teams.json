@@ -2,9 +2,14 @@
   "pagesBaseUrl": "https://kranto.github.io/tuloshuuto",
   "teams": [
     {
-      "id": "m50",
+      "id": "fm50",
       "prefix": "M50",
       "url": "https://spl.torneopal.fi/calendar/team/35151943?t=1793022772050"
+    },
+    {
+      "id": "fm45",
+      "prefix": "M45",
+      "url": "https://spl.torneopal.fi/calendar/team/153813?t=1793034052169"
     }
   ]
 }
