@@ -63,59 +63,59 @@ DTEND:20261212T165000Z
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20270117T103000Z
+DTSTAMP:20270123T103000Z
 UID:4402958@spl.torneopal.fi
 CATEGORIES:Miehet 45 Futsal-Ykkönen
 SUMMARY:M45: SOHO Seniors – PJK
 URL:https://tulospalvelu.palloliitto.fi/match/4402958
 STATUS:CONFIRMED
-LOCATION:Pirkkahalli Futsal D2\, Ilmailunkatu 20\, Tampere
-DESCRIPTION:Pirkkahalli Futsal D2\, Ilmailunkatu 20\, Tampere\nhttps://tulo
- spalvelu.palloliitto.fi/match/4402958
-DTSTART:20270117T103000Z
-DTEND:20270117T112000Z
+LOCATION:Ahvenisjärven koulu\, Opiskelijankatu 25\, Tampere
+DESCRIPTION:Ahvenisjärven koulu\, Opiskelijankatu 25\, Tampere\nhttps://tu
+ lospalvelu.palloliitto.fi/match/4402958
+DTSTART:20270123T103000Z
+DTEND:20270123T112000Z
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20270117T130000Z
+DTSTAMP:20270123T130000Z
 UID:4402961@spl.torneopal.fi
 CATEGORIES:Miehet 45 Futsal-Ykkönen
 SUMMARY:M45: Gotham City FC – SOHO Seniors
 URL:https://tulospalvelu.palloliitto.fi/match/4402961
 STATUS:CONFIRMED
-LOCATION:Pirkkahalli Futsal D2\, Ilmailunkatu 20\, Tampere
-DESCRIPTION:Pirkkahalli Futsal D2\, Ilmailunkatu 20\, Tampere\nhttps://tulo
- spalvelu.palloliitto.fi/match/4402961
-DTSTART:20270117T130000Z
-DTEND:20270117T135000Z
+LOCATION:Ahvenisjärven koulu\, Opiskelijankatu 25\, Tampere
+DESCRIPTION:Ahvenisjärven koulu\, Opiskelijankatu 25\, Tampere\nhttps://tu
+ lospalvelu.palloliitto.fi/match/4402961
+DTSTART:20270123T130000Z
+DTEND:20270123T135000Z
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20270213T153000Z
+DTSTAMP:20270124T113000Z
 UID:4402966@spl.torneopal.fi
 CATEGORIES:Miehet 45 Futsal-Ykkönen
 SUMMARY:M45: HFN-45 – SOHO Seniors
 URL:https://tulospalvelu.palloliitto.fi/match/4402966
 STATUS:CONFIRMED
-LOCATION:Harjuniitty\, Lautamiehenkatu 1\, Nokia
-DESCRIPTION:Harjuniitty\, Lautamiehenkatu 1\, Nokia\nhttps://tulospalvelu.p
- alloliitto.fi/match/4402966
-DTSTART:20270213T153000Z
-DTEND:20270213T162000Z
+LOCATION:Emäkosken koulu LH\, Ruskeepäänkatu 30\, Nokia
+DESCRIPTION:Emäkosken koulu LH\, Ruskeepäänkatu 30\, Nokia\nhttps://tulo
+ spalvelu.palloliitto.fi/match/4402966
+DTSTART:20270124T113000Z
+DTEND:20270124T122000Z
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20270213T171000Z
+DTSTAMP:20270124T131000Z
 UID:4402968@spl.torneopal.fi
 CATEGORIES:Miehet 45 Futsal-Ykkönen
 SUMMARY:M45: SOHO Seniors – FC SORPA
 URL:https://tulospalvelu.palloliitto.fi/match/4402968
 STATUS:CONFIRMED
-LOCATION:Harjuniitty\, Lautamiehenkatu 1\, Nokia
-DESCRIPTION:Harjuniitty\, Lautamiehenkatu 1\, Nokia\nhttps://tulospalvelu.p
- alloliitto.fi/match/4402968
-DTSTART:20270213T171000Z
-DTEND:20270213T180000Z
+LOCATION:Emäkosken koulu LH\, Ruskeepäänkatu 30\, Nokia
+DESCRIPTION:Emäkosken koulu LH\, Ruskeepäänkatu 30\, Nokia\nhttps://tulo
+ spalvelu.palloliitto.fi/match/4402968
+DTSTART:20270124T131000Z
+DTEND:20270124T140000Z
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT

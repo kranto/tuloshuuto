@@ -7,31 +7,31 @@ NAME:Soho Seniors – Miehet 50 Futsal-Ykkönen
 X-WR-CALNAME:Soho Seniors – Miehet 50 Futsal-Ykkönen
 X-WR-TIMEZONE:Europe/Helsinki
 BEGIN:VEVENT
-DTSTAMP:20261205T162000Z
+DTSTAMP:20270103T122000Z
 UID:4402981@spl.torneopal.fi
 CATEGORIES:Miehet 50 Futsal-Ykkönen
 SUMMARY:M50: KaVo – Soho Seniors
 URL:https://tulospalvelu.palloliitto.fi/match/4402981
 STATUS:CONFIRMED
-LOCATION:Harjuniitty\, Lautamiehenkatu 1\, Nokia
-DESCRIPTION:Harjuniitty\, Lautamiehenkatu 1\, Nokia\nhttps://tulospalvelu.p
- alloliitto.fi/match/4402981
-DTSTART:20261205T162000Z
-DTEND:20261205T171000Z
+LOCATION:Emäkosken koulu LH\, Ruskeepäänkatu 30\, Nokia
+DESCRIPTION:Emäkosken koulu LH\, Ruskeepäänkatu 30\, Nokia\nhttps://tulo
+ spalvelu.palloliitto.fi/match/4402981
+DTSTART:20270103T122000Z
+DTEND:20270103T131000Z
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261205T180000Z
+DTSTAMP:20270103T140000Z
 UID:4402983@spl.torneopal.fi
 CATEGORIES:Miehet 50 Futsal-Ykkönen
 SUMMARY:M50: Soho Seniors – HFN-50
 URL:https://tulospalvelu.palloliitto.fi/match/4402983
 STATUS:CONFIRMED
-LOCATION:Harjuniitty\, Lautamiehenkatu 1\, Nokia
-DESCRIPTION:Harjuniitty\, Lautamiehenkatu 1\, Nokia\nhttps://tulospalvelu.p
- alloliitto.fi/match/4402983
-DTSTART:20261205T180000Z
-DTEND:20261205T185000Z
+LOCATION:Emäkosken koulu LH\, Ruskeepäänkatu 30\, Nokia
+DESCRIPTION:Emäkosken koulu LH\, Ruskeepäänkatu 30\, Nokia\nhttps://tulo
+ spalvelu.palloliitto.fi/match/4402983
+DTSTART:20270103T140000Z
+DTEND:20270103T145000Z
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
